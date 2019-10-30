@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="head_line">Hänga gubbe</string>
+    <string name="new_game">Starta nytt spel</string>
+    <string name="about_button">Om</string>
+    <string name="change_language">Ändra språk</string>
+    <string name="about_text">Utvecklad av Marcus</string>
+    <string name="guess">Gissa</string>
+    <string name="result">resultat</string>
+    <string name="won">Du vann!!</string>
+    <string name="lost">Du förlorade:(</string>
+    <string name="play_again_btn">Spela igen</string>
+    <string name="the_word_was">Ordet var: </string>
+    <string name="you_got_points">Du har </string>
+    <string name="tries_left">försök kvar</string>
+    <string name="space"> </string>
+    <string name="incorrect_letters">Felaktiga bokstäver</string>
+    <string name="tries_left_game_activity">försök kvar</string>
+    <string name="toast">Du har redan använt denna bokstaven</string>
+    <string name="toast_2">Du måste skriva in något</string>
+
+    <string name="back_to_main_meny">Tillbaka till huvudmenyn</string>
+
+    <string-array name="words_to_guess">
+        <item>HELTAL</item>
+        <item>VERSAL</item>
+        <item>SIFFRA</item>
+        <item>DATOR</item>
+        <item>PROGRAMMERING</item>
+        <item>AVSLUT</item>
+
+    </string-array>
+
+    <string name="word_1">HELTAL</string>
+    <string name="word_2">VERSAL</string>
+    <string name="word_3">SIFFRA</string>
+    <string name="word_4">DATOR</string>
+    <string name="word_5">PROGRAMMERING</string>
+    <string name="word_6">AVSLUT</string>
+
+
+</resources>

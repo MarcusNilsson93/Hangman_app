@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/the_word_was"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_word_was"
+        android:textSize="15sp"
+        android:layout_below="@+id/result_text"/>
+
+    <TextView
+        android:id="@+id/key_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@+id/result_text"
+        android:layout_toEndOf="@id/the_word_was"/>
+
+    <TextView
+        android:id="@+id/you_got_trys_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/the_word_was"
+        android:text="@string/you_got_points"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/counter_trys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_below="@id/the_word_was"
+        android:layout_toEndOf="@id/you_got_trys_left"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tries_left"
+        android:layout_below="@id/the_word_was"
+        android:layout_toEndOf="@id/counter_trys"
+        android:layout_marginStart="5dp"/>
+
+
+    <Button
+        android:id="@+id/play_again_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again_btn"
+        android:layout_below="@id/result_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:onClick="playAgain"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_main_meny"
+        android:layout_below="@id/play_again_btn"
+        android:layout_centerHorizontal="true"
+        android:onClick="mainMenu"/>
+
+</RelativeLayout>

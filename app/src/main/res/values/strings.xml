@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="head_line">Hangman</string>
+    <string name="new_game">New game</string>
+    <string name="about_button">About</string>
+    <string name="change_language">Change language</string>
+    <string name="about_text">Developed by Marcus</string>
+    <string name="guess">Guess</string>
+    <string name="result">result</string>
+    <string name="won">You won!!</string>
+    <string name="lost">You lost:(</string>
+    <string name="play_again_btn">Play again</string>
+    <string name="the_word_was">The word was: </string>
+    <string name="you_got_points">You got </string>
+    <string name="tries_left">tries left</string>
+    <string name="space"> </string>
+    <string name="incorrect_letters">Incorrect letters</string>
+    <string name="tries_left_game_activity">tries left</string>
+    <string name="toast">You have already used this letter</string>
+    <string name="toast_2">You need to write input</string>
+    <string name="back_to_main_meny">Back to main menu</string>
+
+
+
+    <string-array name="words_to_guess">
+        <item>INTEGER</item>
+        <item>UPPERCASE</item>
+        <item>FIGURE</item>
+        <item>COMPUTER</item>
+        <item>PROGRAMING</item>
+        <item>BARGAIN</item>
+
+    </string-array>
+
+    <string name="word_1">INTEGER</string>
+    <string name="word_2">UPPERCASE</string>
+    <string name="word_3">FIGURE</string>
+    <string name="word_4">COMPUTER</string>
+    <string name="word_5">PROGRAMMING</string>
+    <string name="word_6">BARGAIN</string>
+
+</resources>

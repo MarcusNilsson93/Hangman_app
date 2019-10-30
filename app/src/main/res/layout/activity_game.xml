@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="278dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hangman_00" />
+
+
+    <EditText
+        android:id="@+id/edit_guess"
+        android:maxLength="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/final_text"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/guess_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guess"
+        android:layout_below="@+id/edit_guess"
+        android:onClick="guess"/>
+    <TextView
+        android:id="@+id/final_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/image"/>
+    <EditText
+        android:id="@+id/incorrect_letters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/incorrect_letters"
+        android:layout_below="@+id/guess_button"/>
+    <TextView
+        android:id="@+id/display_guessed_chars"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/incorrect_letters"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/object_tries_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/display_guessed_chars"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display_guessed_chars"
+        android:layout_toEndOf="@+id/object_tries_left"
+        android:layout_marginStart="5dp"
+        android:text="@string/tries_left_game_activity"
+        android:textSize="20sp"/>
+
+
+
+
+</RelativeLayout>
